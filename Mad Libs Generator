@@ -1,0 +1,29 @@
+# Mad Libs Generator - 
+code is modified by Anastasia Miniailo 07/18/22 , code is taken from Charles Joseph Monaghan 11/10/2017 
+ 
+# Loop back to this point once code finishes 
+loop = 1 
+ 
+while (loop < 10): 
+ 
+    # Questions which the program asks the user 
+    noun = input("Choose a noun: ") 
+    p_noun = input("Choose a plural noun: ") 
+    noun2 = input("Choose a noun: ") 
+    place = input("Name a place: ") 
+    adjective = input("Choose an adjective (Describing word): ") 
+    noun3 = input("Choose a noun: ") 
+ 
+    # the story with user's data
+    print ("------------------------------------------") 
+    print ("You shouldn't offend",noun,"- footed", p_noun) 
+    print ("Because it has somebody's", noun2,",") 
+    print ("You shouldn't offend",p_noun,"in",place) 
+    print ("Where they are always",adjective,".") 
+    print () 
+    print ("You may think that is this the",noun3,",") 
+    print ("Well it is.") 
+    print ("------------------------------------------") 
+ 
+    # Loop back to "loop = 1" 
+    loop = loop + 1
