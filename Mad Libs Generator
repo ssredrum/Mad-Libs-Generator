@@ -3,11 +3,11 @@
 
 
 # Objects for story
-noun = input("Write a noun") #enter any noun
-verb = input("Write a verb in past") #enter any verb
-adjective = input("Write an adjective") #enter any adjective
+noun = input("Write a noun") # enter any noun
+verb = input("Write a verb in past") # enter any verb
+adjective = input("Write an adjective") # enter any adjective
  
 print("-") 
-print("i had found a/an",noun,",") #that string with your noun
-print("so i",verb,"it to my mom") #that string with your verb
-print("she said that it is",adjective,".") #that string with your adjective
+print("i had found a/an",noun,",") # that string with your noun
+print("so i",verb,"it to my mom") # that string with your verb
+print("she said that it is",adjective,".") # that string with your adjective
