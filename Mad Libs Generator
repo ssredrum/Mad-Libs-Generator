@@ -1,29 +1,13 @@
 # Mad Libs Generator - 
-code is modified by Anastasia Miniailo 07/18/22 , code is taken from Charles Joseph Monaghan 11/10/2017 
+code is modified by Anastasia Miniailo 07/18/22
+
+
+# Objects for story
+noun = input("Write a noun") #enter any noun
+verb = input("Write a verb in past") #enter any verb
+adjective = input("Write an adjective") #enter any adjective
  
-# Loop back to this point once code finishes 
-loop = 1 
- 
-while (loop < 10): 
- 
-    # Questions which the program asks the user 
-    noun = input("Choose a noun: ") 
-    p_noun = input("Choose a plural noun: ") 
-    noun2 = input("Choose a noun: ") 
-    place = input("Name a place: ") 
-    adjective = input("Choose an adjective (Describing word): ") 
-    noun3 = input("Choose a noun: ") 
- 
-    # the story with user's data
-    print ("------------------------------------------") 
-    print ("You shouldn't offend",noun,"- footed", p_noun) 
-    print ("Because it has somebody's", noun2,",") 
-    print ("You shouldn't offend",p_noun,"in",place) 
-    print ("Where they are always",adjective,".") 
-    print () 
-    print ("You may think that is this the",noun3,",") 
-    print ("Well it is.") 
-    print ("------------------------------------------") 
- 
-    # Loop back to "loop = 1" 
-    loop = loop + 1
+print("-") 
+print("i had found a/an",noun,",") #that string with your noun
+print("so i",verb,"it to my mom") #that string with your verb
+print("she said that it is",adjective,".") #that string with your adjective
